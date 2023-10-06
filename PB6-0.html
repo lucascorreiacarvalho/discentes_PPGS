@@ -1,0 +1,187 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Produção discente PPGS/UFF</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Produção discente PPGS/UFF</h2></div>
+                
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Resumos publicados em anais de congressos'}, 
+series: [{data: [[2021,
+8],
+[2022,
+7],
+[2023,
+2]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Resumos publicados em anais de congressos</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 17<br>
+                    
+                    
+                    <div id="dv-year-2023"><h3 class="year">2023</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>COUTO, Ana Raquel Rosa do. <b>Buscar a vida e manter a casa entre a bag e o guidom: Notas sobre as práticas econômicas ordinárias entre as motofretistas</b>. Em: XI Seminário des Alunes PPGSAS/MN UFRJ, 2023, Rio de Janeiro. Anais do XI Seminário des Alunes do PPGSASMN UFRJ, v. 1, 2023. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Buscar+a+vida+e+manter+a+casa+entre+a+bag+e+o+guidom:+Notas+sobre+as+práticas+econômicas+ordinárias+entre+as+motofretistas&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Buscar+a+vida+e+manter+a+casa+entre+a+bag+e+o+guidom:+Notas+sobre+as+práticas+econômicas+ordinárias+entre+as+motofretistas">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Buscar+a+vida+e+manter+a+casa+entre+a+bag+e+o+guidom:+Notas+sobre+as+práticas+econômicas+ordinárias+entre+as+motofretistas">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Skate de Rua: uma subcultura. <b>In: 21º Congresso Brasileiro de Sociologia, 2023, Belém. Anais Eletrônicos Sociólogas e Sociólogos do Futuro</b>. v. 1, 2023. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=In:+21º+Congresso+Brasileiro+de+Sociologia,+2023,+Belém.+Anais+Eletrônicos+Sociólogas+e+Sociólogos+do+Futuro&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=In:+21º+Congresso+Brasileiro+de+Sociologia,+2023,+Belém.+Anais+Eletrônicos+Sociólogas+e+Sociólogos+do+Futuro">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=In:+21º+Congresso+Brasileiro+de+Sociologia,+2023,+Belém.+Anais+Eletrônicos+Sociólogas+e+Sociólogos+do+Futuro">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2022"><h3 class="year">2022</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Autocracia Burguesa e neofascismo no Brasil: Bolsonaro e a atualidade de Florestan Fernandes. <b>In: IV Encontro Nacional GT História e Marxismo, 2022, João Pessoa. Caderno de programação e resumos do IV Encontro Nacional do GT História e Marxismo</b>. 2022. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=In:+IV+Encontro+Nacional+GT+História+e+Marxismo,+2022,+João+Pessoa.+Caderno+de+programação+e+resumos+do+IV+Encontro+Nacional+do+GT+História+e+Marxismo&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=In:+IV+Encontro+Nacional+GT+História+e+Marxismo,+2022,+João+Pessoa.+Caderno+de+programação+e+resumos+do+IV+Encontro+Nacional+do+GT+História+e+Marxismo">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=In:+IV+Encontro+Nacional+GT+História+e+Marxismo,+2022,+João+Pessoa.+Caderno+de+programação+e+resumos+do+IV+Encontro+Nacional+do+GT+História+e+Marxismo">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>DO COUTO, Ana Raquel Rosa; GUEDES, André Dumans.. <b>Cativeiros, Correrias, Velocidades. Algumas Concepções Nativas sobre a ?Liberdade? na Descrição de Mobilidades</b>. Em: 33a Reunião Brasileira de Antropologia, 2022, Curitiba. Anais da 33a Reunião Brasileira de Antrpologia, v. 1, 2022. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Cativeiros,+Correrias,+Velocidades.+Algumas+Concepções+Nativas+sobre+a+?Liberdade?+na+Descrição+de+Mobilidades&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Cativeiros,+Correrias,+Velocidades.+Algumas+Concepções+Nativas+sobre+a+?Liberdade?+na+Descrição+de+Mobilidades">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Cativeiros,+Correrias,+Velocidades.+Algumas+Concepções+Nativas+sobre+a+?Liberdade?+na+Descrição+de+Mobilidades">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>MAIA, I. R. <b>VIOLAÇÃO DE DIREITOS E AGRAVOS DAS CONDIÇÕES DE VIDA DE CRIANÇAS E ADOLESCENTES EM SITUAÇÃO DE RUA: TRAJETÓRIAS EM CURSO NA EDUCAÇÃO</b>. Em: 13º Congresso Brasileiro de Saúde Coletiva, 2022, Salvador. Anais do 13º Congresso Brasileiro de Saúde Coletiva, v. 2, 2022. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=VIOLAÇÃO+DE+DIREITOS+E+AGRAVOS+DAS+CONDIÇÕES+DE+VIDA+DE+CRIANÇAS+E+ADOLESCENTES+EM+SITUAÇÃO+DE+RUA:+TRAJETÓRIAS+EM+CURSO+NA+EDUCAÇÃO&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=VIOLAÇÃO+DE+DIREITOS+E+AGRAVOS+DAS+CONDIÇÕES+DE+VIDA+DE+CRIANÇAS+E+ADOLESCENTES+EM+SITUAÇÃO+DE+RUA:+TRAJETÓRIAS+EM+CURSO+NA+EDUCAÇÃO">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=VIOLAÇÃO+DE+DIREITOS+E+AGRAVOS+DAS+CONDIÇÕES+DE+VIDA+DE+CRIANÇAS+E+ADOLESCENTES+EM+SITUAÇÃO+DE+RUA:+TRAJETÓRIAS+EM+CURSO+NA+EDUCAÇÃO">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>MAIA, I. R. <b>AÇÕES DE EXTENSÃO COM CRIANÇAS, ADOLESCENTES E JOVENS EM SITUAÇÃO DE RUA EM NITERÓI</b>. Em: 13º Congresso Brasileiro de Saúde Coletiva, 2022, Salvador. Anais do 13º Congresso Brasileiro de Saúde Coletiva, v. 2, 2022. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=AÇÕES+DE+EXTENSÃO+COM+CRIANÇAS,+ADOLESCENTES+E+JOVENS+EM+SITUAÇÃO+DE+RUA+EM+NITERÓI&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=AÇÕES+DE+EXTENSÃO+COM+CRIANÇAS,+ADOLESCENTES+E+JOVENS+EM+SITUAÇÃO+DE+RUA+EM+NITERÓI">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=AÇÕES+DE+EXTENSÃO+COM+CRIANÇAS,+ADOLESCENTES+E+JOVENS+EM+SITUAÇÃO+DE+RUA+EM+NITERÓI">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Marcelo Chaves Soares. <b>Entre o direito de aparecer e o direito ao luto: uma análise dos casos de violência contra pessoas LGBTQIA+ no Brasil</b>. Em: X Seminário Discente (PPGS/UFRGS), 2022, Porto Alegre - RS. Caderno de resumos do X Seminário Discente do Programa de PósGraduação em Sociologia da Universidade Federal do Rio Grande do Sul, 2022: panoramas sociológicos entre conhecimentos, práticas e pesquisas: o que queremos? a que(m) serve nosso conhecimento?. Porto Alegre: Instituto de Filosofia e Ciências Humanas - UFRGS, v. 1, p. 53-54, 2022. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Entre+o+direito+de+aparecer+e+o+direito+ao+luto:+uma+análise+dos+casos+de+violência+contra+pessoas+LGBTQIA++no+Brasil&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Entre+o+direito+de+aparecer+e+o+direito+ao+luto:+uma+análise+dos+casos+de+violência+contra+pessoas+LGBTQIA++no+Brasil">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Entre+o+direito+de+aparecer+e+o+direito+ao+luto:+uma+análise+dos+casos+de+violência+contra+pessoas+LGBTQIA++no+Brasil">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>PINHEIRO, P. R. S. ; SILVA, A. P. B. ; TELES, V. R. ; RABELO, T. S. ; MONTEIRO, S. T. ; MONTEIRO, S. T. ; TAVARES, M. M.. <b>O lugar e o não lugar do imediatismo a partir das redes sociais - reflexões sobre o morrer</b>. Em: IV Semana de Enfermagem da Faculdade de Ciências Médicas de Maricá (SEnf), 2022, Maricá - RJ. 83º Semana Brasileira de Enfermagem, 2022. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=O+lugar+e+o+não+lugar+do+imediatismo+a+partir+das+redes+sociais+-+reflexões+sobre+o+morrer&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=O+lugar+e+o+não+lugar+do+imediatismo+a+partir+das+redes+sociais+-+reflexões+sobre+o+morrer">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=O+lugar+e+o+não+lugar+do+imediatismo+a+partir+das+redes+sociais+-+reflexões+sobre+o+morrer">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>RODRIGUES, L. Otávio. <b>Darcy Ribeiro e a Antropologia da Educação no Brasil</b>. Em: 33° Reunião Brasileira de Antropologia, 2022, Curitiba. GT46: História(s) da(s) Antropologia(s): temas e tendências. Brasília: Associação Brasileira de Antropologia, p. 1-3, 2022. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Darcy+Ribeiro+e+a+Antropologia+da+Educação+no+Brasil&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Darcy+Ribeiro+e+a+Antropologia+da+Educação+no+Brasil">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Darcy+Ribeiro+e+a+Antropologia+da+Educação+no+Brasil">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>DO COUTO, Ana Raquel Rosa. <b>EM QUE POSSO AJUDAR? A CONSTRUÇÃO DA IDENTIDADE DE TRABALHADORAS NO MUNDO DOS SERVIÇOS</b>. Em: VI Seminário Discente do Programa de Pós ? Graduação em Sociologia -UFMG, 2021, Belo Horizonte. Anais do VI Seminário Discente do Programa de Pós-Graduação em Sociologia da Universidade Federal de Minas Gerais (PPGS-UFMG). Belo Horizonte: Amplla, v. 1, p. 15-1150, 2021. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=EM+QUE+POSSO+AJUDAR?+A+CONSTRUÇÃO+DA+IDENTIDADE+DE+TRABALHADORAS+NO+MUNDO+DOS+SERVIÇOS&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=EM+QUE+POSSO+AJUDAR?+A+CONSTRUÇÃO+DA+IDENTIDADE+DE+TRABALHADORAS+NO+MUNDO+DOS+SERVIÇOS">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=EM+QUE+POSSO+AJUDAR?+A+CONSTRUÇÃO+DA+IDENTIDADE+DE+TRABALHADORAS+NO+MUNDO+DOS+SERVIÇOS">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Ex-Paraíso Degradado: Danos Ambientais e o Trabalho de Marisqueiras em Sepetiba, Rio de Janeiro. <b>In: VII Jornada Brasileira de Sociologia, 2021, Pelotas. Anais da VII Jornada Brasileira de Sociologia</b>. 2021. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=In:+VII+Jornada+Brasileira+de+Sociologia,+2021,+Pelotas.+Anais+da+VII+Jornada+Brasileira+de+Sociologia&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=In:+VII+Jornada+Brasileira+de+Sociologia,+2021,+Pelotas.+Anais+da+VII+Jornada+Brasileira+de+Sociologia">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=In:+VII+Jornada+Brasileira+de+Sociologia,+2021,+Pelotas.+Anais+da+VII+Jornada+Brasileira+de+Sociologia">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>FURLANI, D. F. R. <b>MULHERES E CULTURA DIGITAL: O ANTIFEMINISMO NA INTERNET</b>. Em: VIII Encontro Nacional de Estudos da Imagem e V Encontro Internacional de Estudos da Imagem, 2021, Londrina. Caderno de Resumos VIII Eneimagem e V Eiemagem, v. 1, p. 210-210, 2021. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=MULHERES+E+CULTURA+DIGITAL:+O+ANTIFEMINISMO+NA+INTERNET&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=MULHERES+E+CULTURA+DIGITAL:+O+ANTIFEMINISMO+NA+INTERNET">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=MULHERES+E+CULTURA+DIGITAL:+O+ANTIFEMINISMO+NA+INTERNET">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>MONTEIRO, S. <b>T.; Importância da enfermagem acerca da promoção de saúde do homem na atenção primária</b>. Em: I ENIPEX, 2021, Maricá. I ENIPEX, 2021. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=T.;+Importância+da+enfermagem+acerca+da+promoção+de+saúde+do+homem+na+atenção+primária&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=T.;+Importância+da+enfermagem+acerca+da+promoção+de+saúde+do+homem+na+atenção+primária">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=T.;+Importância+da+enfermagem+acerca+da+promoção+de+saúde+do+homem+na+atenção+primária">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Neofascismo à brasileira. <b>In: XI Congresso Português de Sociologia, 2021, Lisboa. XI Congresso Português de Sociologia - Livro de Resumos</b>. p. 186-186, 2021. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=In:+XI+Congresso+Português+de+Sociologia,+2021,+Lisboa.+XI+Congresso+Português+de+Sociologia+-+Livro+de+Resumos&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=In:+XI+Congresso+Português+de+Sociologia,+2021,+Lisboa.+XI+Congresso+Português+de+Sociologia+-+Livro+de+Resumos">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=In:+XI+Congresso+Português+de+Sociologia,+2021,+Lisboa.+XI+Congresso+Português+de+Sociologia+-+Livro+de+Resumos">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>RABELLO, G. B.; SOUZA, B. V. ; MIRANDA, E. A. ; CASTRO, M. P. P.. <b>Cine Darcyzinho: ação virtual de política cultual universitária</b>. Em: Congresso Brasileiro de Extensão Universitária, 2022, Alfenas. 9º CEBEU- Congresso Brasileiro de Extensão Universitária - redes para promover e defender os direitos humanos.. Belo Horizonte: Proex-UFMG, v. 9, p. 338-338, 2021. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Cine+Darcyzinho:+ação+virtual+de+política+cultual+universitária&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Cine+Darcyzinho:+ação+virtual+de+política+cultual+universitária">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Cine+Darcyzinho:+ação+virtual+de+política+cultual+universitária">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>RIBEIRO, RODRIGO.L.C. <b>Do mercado de proteção ao mercado imobiliário: Considerações etnográficas de um território controlado pela milícia no Rio de Janeiro</b>. Em: 20º Congresso Brasileiro de Sociologia 'Sociedade, Estado e Natureza', 2021, Belém. Anais 20º Congresso Brasileiro de Sociologia, 2021. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Do+mercado+de+proteção+ao+mercado+imobiliário:+Considerações+etnográficas+de+um+território+controlado+pela+milícia+no+Rio+de+Janeiro&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Do+mercado+de+proteção+ao+mercado+imobiliário:+Considerações+etnográficas+de+um+território+controlado+pela+milícia+no+Rio+de+Janeiro">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Do+mercado+de+proteção+ao+mercado+imobiliário:+Considerações+etnográficas+de+um+território+controlado+pela+milícia+no+Rio+de+Janeiro">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Trotsky e a ascensão do Nazifascismo. <b>In: Trotski em Permanência, 2021, São Paulo. Caderno de resumos do simpósio temático</b>. 2021. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=In:+Trotski+em+Permanência,+2021,+São+Paulo.+Caderno+de+resumos+do+simpósio+temático&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=In:+Trotski+em+Permanência,+2021,+São+Paulo.+Caderno+de+resumos+do+simpósio+temático">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=In:+Trotski+em+Permanência,+2021,+São+Paulo.+Caderno+de+resumos+do+simpósio+temático">busca Google</a> ]          </font><br></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2021 até 2023
+<br>Data de processamento: 06/10/2023 13:19:40<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:lucascorreiacarvalho@id.uff.br">lucascorreiacarvalho@id.uff.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              
